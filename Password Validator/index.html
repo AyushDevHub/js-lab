@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Validator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Password Validator</h2>
+        <form>
+            <label for="password">Enter your password:</label>
+            <br>
+            <input type="text" id="password" name="password">
+            <div class="message">
+                <ul>
+                    <li>At least 8 characters</li>
+                    <li>Contains at least one uppercase letter</li>
+                    <li>Contains at least one lowercase letter</li>
+                    <li>Contains at least one number</li>
+                    <li>Contains at least one special character</li>
+                </ul>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
