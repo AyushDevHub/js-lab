@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>Weather-App</title>
 </head>
 <body>
@@ -13,14 +12,14 @@
         <h3>Weather App</h3>
         <div class="city">
             <input type="text" placeholder="Enter your city name" id="cityName">
-            <button>Get Weather</button>
+            <button type="submit" id="getWeatherBtn">Get Weather</button>
         </div>
         <div class="cityDetails">
-            <h3>Kolkata</h3>
-                <img src="./weather-images/sun.png" alt="#">
-                <p>33.7&deg; C</p>
-                <p>Sunny day</p>
-                <p>Wind Spped 3.12 m/s</p>
+            <h3 id="cityDisplay">City Name</h3>
+            <img id="weatherIcon" src="./weather-images/sun.png" alt="Weather Icon">
+            <p id="temperature">--° C</p>
+            <p id="weatherDescription">Weather Description</p>
+            <p id="windSpeed">Wind Speed: -- m/s</p>
         </div>
     </div>
 </body>
