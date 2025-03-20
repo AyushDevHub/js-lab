@@ -66,10 +66,20 @@ ul{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-  }
+    }
     .task{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 10px;
     }  
+    .btn-cross {
+        cursor: pointer;
+        color: red;
+        font-size: 20px;
+        position: relative;
+        left: 273px;
+        background-color: transparent;
+        border: none;
+
+    }
