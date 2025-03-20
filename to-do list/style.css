@@ -40,7 +40,7 @@ input{
 input::placeholder{
     padding-left: 20px;
 }
-.addingTaskBtn{
+#addingTaskBtn{
     position: relative;
     width: 100px;
     height: 40px;
@@ -51,7 +51,7 @@ input::placeholder{
     font-weight: 600;
     right: 37px;
 }
-.addingTaskBtn:hover{
+#addingTaskBtn:hover{
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
     font-weight: 800;
 }
@@ -78,7 +78,8 @@ ul{
         color: red;
         font-size: 20px;
         position: relative;
-        left: 273px;
+        left: 307px;
+        top: 30px;
         background-color: transparent;
         border: none;
 
